@@ -1,0 +1,16 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.bigImg{
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.smallImg{
+  width: 100%;
+}

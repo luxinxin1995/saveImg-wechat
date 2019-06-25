@@ -1,0 +1,16 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#E0FFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "页面配置",
+  "navigationStyle": "",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "backgroundColorTop": "",
+  "backgroundColorBottom": "",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": "50px",
+  "pageOrientation": "auto",
+  "disableScroll": false,
+  "disableSwipeBack": false
+}

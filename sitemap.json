@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "action":"allow",
+      "page":"",
+      "params":"",
+      "matching":"inclusive",
+      "priority":""
+    },
+    {
+      "action":"disallow",
+      "page":""
+    }
+  ]
+}

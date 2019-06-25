@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view>
+  <view>
+    <image class="image" class='bigImg' wx:for="{{arr}}" wx:key="{{index}}" src="{{item.src}}" mode='aspectFit' bindtap='togglePopup' data-index="{{index}}" data-src="{{item.src}}">
+    </image>
+    <modal title="图片" confirm-text="确认" cancel-text="取消" hidden="{{showPopup}}" bindconfirm="modalConfirm" bindcancel="modalCancel">
+      <image class='smallImg' src='{{url}}' data-url="{{url}}" mode='aspectFit' bindtouchstart='timestart' bindtouchend='timeend' bindtap='saveImg'></image>
+    </modal>
+  </view>
+</view>
